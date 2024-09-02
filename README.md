@@ -26,7 +26,7 @@ This project is a web-based unit converter that allows users to convert between 
 ## 🛠️ Technologies Used
 - Java 11
 - Servlet
-- JSP (Java Server Page)
+- JSP (Jakarta Server Pages)
 - Apache Tomcat
 - Maven
 
