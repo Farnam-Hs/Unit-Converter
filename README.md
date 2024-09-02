@@ -73,8 +73,16 @@ http://localhost:8080/[Application-Context]
 
 **5. Restart:** Click on the Back button to get back to the converter page.
 
-![Convert Form](images/convert.png)
-![Result Page](images/result.png)
+---
+
+## 🖼️ Screenshots
+
+Here are some screenshots of the application:
+
+<p align="center">
+  <img src="images/convert.png" alt="Convert Form" width="454"/>
+<img src="images/result.png" alt="Result Page" height="" width="611"/>
+</p>
 
 ---
 
