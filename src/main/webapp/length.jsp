@@ -49,7 +49,7 @@
             margin: 10px 0 5px;
             color: #555;
         }
-        input[type="text"], select {
+        input[type="number"], select {
             width: 100%;
             padding: 10px;
             margin-bottom: 15px;
@@ -93,7 +93,7 @@
         <input type="hidden" name="type" value="length">
 
         <label for="value">Enter the length to convert:</label>
-        <input type="text" name="value" id="value" required pattern="[+-]?\d+(\.\d{1,2})?" title="Please enter a valid number">
+        <input type="number" name="value" id="value" step="any" required>
 
         <label for="fromUnit">Unit to Convert from:</label>
         <select name="fromUnit" id="fromUnit">

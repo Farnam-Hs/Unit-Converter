@@ -12,6 +12,7 @@
             align-items: center;
             height: 100vh;
         }
+
         .container {
             background-color: #fff;
             padding: 20px;
@@ -20,15 +21,18 @@
             width: 400px;
             text-align: center;
         }
+
         h1 {
             color: #333;
             margin-bottom: 20px;
         }
+
         .tabs {
             display: flex;
             justify-content: space-between;
             margin-bottom: 20px;
         }
+
         .tab {
             padding: 10px 20px;
             background-color: #e0e0e0;
@@ -40,16 +44,19 @@
             color: #000;
             margin: 0 5px;
         }
+
         .tab.active {
             background-color: #4CAF50;
             color: white;
         }
+
         label {
             display: block;
             margin: 10px 0 5px;
             color: #555;
         }
-        input[type="text"], select {
+
+        input[type="number"], select {
             width: 100%;
             padding: 10px;
             margin-bottom: 15px;
@@ -57,14 +64,17 @@
             border-radius: 5px;
             font-size: 16px;
         }
+
         input[type="text"] {
             -moz-appearance: textfield;
         }
+
         input[type="text"]::-webkit-outer-spin-button,
         input[type="text"]::-webkit-inner-spin-button {
             -webkit-appearance: none;
             margin: 0;
         }
+
         button {
             background-color: #4CAF50;
             color: white;
@@ -75,6 +85,7 @@
             font-size: 16px;
             width: 100%;
         }
+
         button:hover {
             background-color: #45a049;
         }
@@ -93,7 +104,7 @@
         <input type="hidden" name="type" value="weight">
 
         <label for="value">Enter the weight to convert:</label>
-        <input type="text" name="value" id="value" required pattern="[+-]?\d+(\.\d{1,2})?" title="Please enter a valid number">
+        <input type="number" name="value" id="value" step="any" required>
 
         <label for="fromUnit">Unit to Convert from:</label>
         <select name="fromUnit" id="fromUnit">
